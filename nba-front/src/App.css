@@ -1,0 +1,234 @@
+.filter-button {
+  position: absolute;
+  width: 111px;
+  height: 37px;
+  top: 165px;
+  
+  background: #F05B5B;
+  border-radius: 5px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.header {
+  position: absolute;
+  height: 40px;
+  top: 72px;
+  
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  /* identical to box height */
+  
+  color: #000000;
+}
+
+.subheader {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  top: 90px;
+  left: 100px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #000000;
+
+  margin-bottom: 100px;
+}
+
+.filter-label {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  top: 90px;
+  left: 100px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+
+  margin-bottom: 25px;
+}
+
+.slider-container {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  margin-bottom: 50px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 5px;
+  background: #000;
+  border-radius: 5px;
+}
+
+.player-grid-container {
+  position: absolute;
+  top: 257px;
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  grid-template-rows: 22% 22% 22% 22%; 
+  column-gap: 30px;
+  row-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.player-grid-list-item {
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  width: 285px;
+  height: 175px;
+}
+
+.player-card {
+  text-align: left;
+}
+
+.dimmer {
+  background:#000000;
+  opacity:0.6;
+  position: absolute; /* important to use fixed, not absolute */
+  margin: 0 auto;
+  width:100%;
+  height:100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.player-text {
+  position: absolute;
+  font-size: 20px;
+  width: auto;
+  height: 100%;
+  margin-left: 20px;
+  color: white;
+  line-height: 30px;
+}
+
+.player-image {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.player-active-years {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.filter-tray {
+  position: absolute;
+  width: 22%;
+  height: 100%;
+  left: -22%;
+}
+
+.slideIn {
+  -webkit-animation: slideRight 1s forwards;
+  animation: slideRight 1s forwards;
+}
+
+.slideOut {
+  -webkit-animation: slideLeft 1s forwards;
+  animation: slideLeft 1s forwards;
+}
+
+@-webkit-keyframes slideRight {
+  0% {left: 5%;}
+  100% { left: 25%; }
+}
+
+@keyframes slideRight {
+  0% {left: 5%;}
+  100% { left: 25%; }
+}
+
+@-webkit-keyframes slideRight {
+  0% {left: 5%;}
+  100% { left: 25%; }
+}
+
+@keyframes slideRight {
+  0% {left: 5%;}
+  100% { left: 25%; }
+}
+
+@-webkit-keyframes slideLeft {
+  0% {left: 25%;}
+  100% { left: 5%; }
+}
+
+@keyframes slideLeft {
+  0% {left: 25%;}
+  100% { left: 5%; }
+}
+
+.main {
+  position: relative;
+  left:5%;
+}
+
+.showTray {
+  -webkit-animation: slideTrayRight 1s forwards;
+  animation: slideTrayRight 1s forwards;
+}
+
+@-webkit-keyframes slideTrayRight {
+  0% {left: -22%}
+  100% { left: 0%; }
+}
+
+@keyframes slideTrayRight {
+  0% {left: -22%}
+  100% { left: 0%; }
+}
+
+.hideTray {
+  -webkit-animation: slideTrayLeft 1s forwards;
+  animation: slideTrayLeft 1s forwards;
+}
+
+@-webkit-keyframes slideTrayLeft {
+  0% { left: 0%; }
+  100% { left: -22%; }
+}
+
+@keyframes slideTrayLeft {
+  0% { left: 0%; }
+  100% { left: -22%; }
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+

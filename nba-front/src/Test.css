@@ -1,0 +1,38 @@
+#div-dad {
+  position: absolute;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  grid-template-rows: 22% 22% 22% 22%; 
+  grid-column-gap: 4%;
+  grid-row-gap: 4%;
+  justify-items: center;
+  align-items: center;
+}
+
+#div-1 {
+  position: relative;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+#div-2 {
+  position: relative;
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+#div-3 {
+  position: relative;
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
