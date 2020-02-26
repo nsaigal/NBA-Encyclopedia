@@ -1,4 +1,4 @@
-# NBA-Encyclopedia-React-App
+# NBA Encyclopedia
 
 ## Overview
 
