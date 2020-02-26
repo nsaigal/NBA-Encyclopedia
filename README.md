@@ -16,7 +16,8 @@ This React/Django site was created as a fun project to find NBA players. It inge
 
 ## UI Design
 
-
+![With filters](https://raw.githubusercontent.com/nsaigal/NBA-Encyclopedia-React-App/master/Desktop%20-%201.png)
+![Without filters](https://raw.githubusercontent.com/nsaigal/NBA-Encyclopedia-React-App/master/Desktop%20-%203.png)
 
 ## Tech Used / Dependencies
 
