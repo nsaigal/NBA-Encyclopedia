@@ -12,7 +12,7 @@ This React/Django site was created as a fun project to find NBA players. It inge
 
 - Clicking on a Player Card will slide out the career stats on the right-hand side.
 
-- Users can filter by height, weight, college, last name, age, and active playing years.
+- Users can filter players by height, weight, college, last name, age, and active playing years.
 
 ## UI Design
 
